@@ -41,9 +41,9 @@
               <svg class="contact-icon" width="16px" height="12px">
                 <use href="./images/svg-icon/symbol-defs.svg#envelope"></use>
               </svg>
-            
+
               info@devstudio.com
-              </a>
+            </a>
           </li>
           <li class="item">
             <a class="contact-link link" href="tel:+380961111111">
@@ -63,9 +63,15 @@
       <section class="page-hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button button">
+          <button type="button" class="hero-button button" data-modal-open>
             Замовити послугу
           </button>
+
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="close-modal" data-modal-close></button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -147,8 +153,7 @@
                 src="./images/specialization/img2.jpeg"
                 alt="Хтось шось робить пультом"
               />
-              <p class="picts-overlay">Мобільні додатки
-              </p>
+              <p class="picts-overlay">Мобільні додатки</p>
             </li>
 
             <li class="pict">
@@ -626,5 +631,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
