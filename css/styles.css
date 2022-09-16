@@ -246,6 +246,7 @@ h1 {
     box-shadow 250ms var(--timing-function);
 }
 
+
 .backdrop {
   position: fixed;
   top: 0;
