@@ -523,6 +523,10 @@ h1 {
   background-color: var(--hero-background-color);
 }
 
+.page-footer .list {
+  align-items: baseline;
+}
+
 .contacts .link {
   color: var(--primary-white-color);
   font-style: normal;
@@ -737,6 +741,8 @@ h1 {
   border-top: 1px solid transparent;
   padding: 20px 24px;
 }
+
+
 
 /* .icon {
   fill: var(--icons-color);
